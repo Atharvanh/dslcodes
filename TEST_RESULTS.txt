@@ -1,0 +1,18 @@
+VERIFICATION RESULTS
+
+All 10 standalone Python programs passed.
+1703 automated assertions passed.
+
+Checked syntax and absence of Python comments in all ten files.
+Ran every program as an interactive subprocess using scripted input.
+Checked all required operations through direct function calls.
+Searching and both sorting algorithms tested on 31 deterministic datasets,
+including empty lists, duplicates, negative numbers, and fractional salaries.
+Also tested empty library data and tied results; undo/redo boundaries and
+redo clearing; FIFO and cancellation by event ID; linked-list duplicate,
+missing, update, deletion and all four sorting options; chained collisions
+and value updates; linear-probing wraparound, deleted slots, duplicates and
+full tables; graph cycles and disconnected nodes; BST duplicates, missing
+keys, leaf deletion, one-child deletion, two-child root deletion and emptying.
+
+Inputs are expected to match the requested numeric types.
